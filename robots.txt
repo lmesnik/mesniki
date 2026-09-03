@@ -1,0 +1,3 @@
+# robots.txt for  http://mesniki.ru
+User-agent: *
+ Sitemap: http://mesniki.ru/sitemap.xml

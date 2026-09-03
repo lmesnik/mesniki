@@ -1,0 +1,109 @@
+﻿/*
+* Photo Gallery вЂ” Practice
+* CSS Styles
+*
+* Start typing your code under these comments
+*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color:  ;
+    background-color: silver;
+    
+}
+
+header {
+    background: url(../img/bg-01.jpg) center / cover no-repeat #666;
+    min-height: 100px; /* также определим минимальную высоту хедера */
+    padding-top: 100px; /* и добавим отступы для содержимого */
+    padding-bottom: 50px;
+}
+#topbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 999; /* подробно это свойство будет изучаться в поздних главах учебника,
+                   * а пока что просто добавьте его */
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.photo {
+    float: left; /* говорим элементам выстраиваться один за другим */
+    width: 75%; /* устанавливаем ширину элемента */
+    padding: 10 px; /* добавляем отступы с каждой стороны */
+    box-sizing: border-box; /* меняем способ вычисления ширины */
+  padding: 5 px;
+}
+.photo a:hover {
+    opacity: 0.5;}/* прозрачность иконки 50 % */
+    
+    .photo:hover > a:after {
+    visibility: visible;
+
+} 
+.photo a {
+    display: block;
+    position: relative; 
+}
+.photo a:after {
+    content: '';
+    background: transparent url(../img/icons/eye-icon.png) no-repeat center;
+    width: 52px;/* размеры прицела */
+    height: 35px;
+    position: absolute;
+    margin: auto;/* положение прицела */
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+}/**/
+photo figcaption {
+    font-family: 'Open Sans', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 20px;
+}
+h1 {
+    font-family: 'Metal Mania', cursive; /* этот шрифт отличается от обычного */
+    text-align: center; /* выравниваем текст по центру */
+    font-size: 5.6em; /* задаем крупный размер шрифта */
+    color: #fafafa; /* устанавливаем слегка приглушенный белый цвет текста */
+    margin-top: 0; /* убираем верхний отступ конкретно для этого заголовка */}
+
+#gallery {
+    margin-bottom:50px;
+}
+.photo img {
+ display: block;
+    max-width: 100%;
+    height: auto;
+border: 10px ridge  ButtonShadow ;
+box-sizing: border-box;
+}
+#gallery:after { 
+   content: '';
+   display: block; 
+   height: 0; 
+   clear: both;
+}

@@ -1,0 +1,415 @@
+﻿   /* Цвет фона */.body {  
+  width:1200px;
+
+				background: white   ;
+				font-size: x-large;
+				text-align: center;
+				text-shadow: -1px 1px 0 yellow;
+				letter-spacing: 0.1em;
+				margin-left: 0px;
+		 
+	 
+	
+		
+				
+}
+ 
+ #footer {
+    position: fixed; /* Фиксированное положение */
+    left: 100px; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: silver; /* Цвет фона */
+    color: green; /* Цвет текста */
+    width:  800px; /* Ширина слоя */
+    text-shadow: 
+				
+			   0 1px 0 #ccc,
+               0 2px 0 #c9c9c9;
+
+   }
+
+.header
+{
+ width:1194px;
+ border:   4px solid #c9c9c9;
+background: #D8E3AB url(titl.jpg) no-repeat ;
+height: 300px;	
+ 
+
+}
+
+
+.title{
+				font-size: 42px;
+				color: #000099;
+				background-color: white;
+				text-align:center;
+				font-family: 'Monotype Corsiva', sans-serif;
+				text-shadow: 
+				
+			   0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+               		letter-spacing: 0.1em;
+}
+
+.h1{
+font-size:72px;
+	color:  blue;
+	outline-color: black;
+text-shadow:#B6B6B6 1px -1px 0,
+			#B6B6B6 2px -2px 0,
+			#B6B6B6 3px -3px 0,
+			#B6B6B6 4px -4px 0,
+			#B6B6B6 5px -5px 0;
+			
+}
+ #block {
+    
+    padding:5px; /* Поля вокруг текста */
+    background: LightGrey; /* Цвет фона */
+    text-align:   left;
+ font-size:  medium;
+  width: 800px; 
+  height: 174px; 
+ position: relative; 
+ left: 7px; top: -66px;"  
+
+   }
+ .block1 { 
+ padding:0px  0px 0px 20px; /* Поля вокруг текста */
+background:  #FFFFCC; /* Цвет фона */
+    text-align:   left;
+ font-size:   14px ;
+  width: 700px; 
+  height: 174px; 
+ position: relative; 
+ left:  10px; 
+ top: -10px;"  
+font-family:  "Times New Roman", Times, serif
+   }      
+.style1
+ {
+ outline-color: black; 
+   background-color: white;
+ text-align:  center;
+ font-size: xx-large;
+ color: gray ;
+  font-family: 'Monotype Corsiva', sans-serif; 
+ text-shadow: 3px 0 0 black ;
+}
+.style2 {
+			text-decoration: none;
+				margin:0 20px ;
+				background-color:  white;
+				text-align: justify;
+				font-size: medium;
+				font-family:  "Times New Roman", Times, serif;
+				text-shadow: 0px 0 0 #FF0000;
+}
+.style2a { 	 	text-decoration: none;
+				margin:0 20px ;
+				background-color:  white;
+				text-align: right;
+				font-size: medium;
+				font-family:  "Times New Roman", Times, serif;
+				text-shadow: 0px 0 0 #FF0000;
+				 
+}
+.style3 {
+			text-decoration: none;
+				background-color:  white;
+				text-align: left;
+				font-size:  large;
+				font-family:  "Times New Roman", Times, serif;
+				  
+}
+.style4 {
+				background-color:  white;
+				text-align: center;
+				font-size: large;
+				font-family:  "Times New Roman", Times, serif; 
+				font-style: inherit;
+                color:maroon;
+                border:1px black
+                }
+
+       .tr  {   border:1px black;
+				  
+}
+
+/* задаем цвет фона для контейнера nav. */
+			 nav {
+			    margin:50px 0;
+			    background-color:  white;
+			}
+			
+			/* убираем отступы и поля, а также list-style для "ul", 
+			 * и добавляем "position:relative" */
+			nav ul {
+			    padding:20;
+			    margin:50;
+			    list-style: none; 
+			    position: relative; 
+			    border-color: blue;
+			    border: 1px; 
+			    }
+			
+			/* применяем inline-block позиционирование к элементам навигации */
+			nav ul li {
+			    margin:0  2px 0px  0;
+			    display:inline-block;  
+			    background-color:  #CCCCFF;
+			    min-width:200px;
+			    text-align :center; 
+ box-shadow: 2px 2px 0 1px gray,
+ 4px  4px 0 0 black ; 
+			    }
+			
+			/* стилизуем ссылки */
+			nav a {
+			    display:block;
+			    padding:0 10px;
+			    color:  blue;
+			    font-size: large;
+			    text-shadow:
+			    2px 1px 0 white ;
+			    line-height: 30px;
+			    text-decoration:none;
+			}
+			
+			/* изменяем цвет фона при наведении курсора */
+			nav a:hover {
+			    background-color:  silver;
+			     text-shadow:
+			     1px 0 purple
+			    }
+			  /* скрываем выпадающие списки по умолчанию
+			 * и задаем абсолютное позиционирование */
+			nav ul ul {
+			    display: none;
+			    position: absolute;
+			    top: 100%;
+			}
+						
+			/* отображаем выпадающий список при наведении */
+			nav ul li:hover > ul {
+			    display:inherit;
+			    
+			}
+			
+			/* первый уровень выпадающего списка */
+			nav ul ul li {
+			    min-width:170px;
+			    float:none;
+			    display:list-item;
+			    position: relative;
+			     bottom: 2px; /* Положение от нижнего края */
+			     right: 95px; /* Положение от правого края */
+			    text-align:  left; 
+			    box-shadow: 2px 2px 0 1px gray,
+                            4px  4px 0 0 black ;
+                            margin-top:4px; 
+
+			}
+.style5 {
+				border-width: 0; 
+				margin: 10px 50px ;
+				text-decoration: none;
+				background-color:  white;
+				text-align:  center;
+				font-size: medium;
+				font-family: "Times New Roman", Times, serif;
+				text-shadow: 0px 0 0 teal;
+}
+.style7 {
+				 border:1px black solid;  
+				margin: 10px  25px ;
+				text-decoration: none;
+				background-color:  white;
+				text-align: left;
+				text-indent:20px;
+				font-size:  large;
+				font-family:  "Times New Roman", Times, serif;
+				  
+}
+
+li {
+list-style-position: inside;
+list-style-type:  none;
+}
+.style8 {
+				    
+				border: 1px solid #000000;
+				text-decoration: none;
+				margin: 0 40px;
+				background-color: white;
+				text-align:  left;
+				font-size:  x-large;
+				font-family: "Times New Roman", Times, serif;
+				text-shadow: 0px 0 0 #FF0000;
+}
+.style9 {  
+				text-decoration: none;
+				margin: 0 20px;
+				background-color:  #CCCCFF;
+				text-align: right;
+				font-size: medium;
+				font-family: "Times New Roman", Times, serif;
+				text-shadow: 0px 0 0 #FF0000;
+}
+.style10 {
+				border: 1px gray;
+				border-bottom:2px black;
+				background-color: white;
+				text-align: center;
+				font-size:28px;
+				font-family: "Times New Roman", Times, serif ;
+				font-style: normal ;
+				color:  black;
+	
+
+}
+a.butt {
+        text-align:center;
+        font-size: medium;
+        text-decoration: none;
+        font-weight:5;
+        padding: 3px 6px;
+        background: #eaeef1;
+        display: block;
+        width:120px;
+        margin: 10px  10px ;
+        background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.1));
+        border-radius: 5px;
+        color: rgba(0,0,0,.6);
+        text-shadow: 0 1px 1px rgba(255,255,255,.7);
+        box-shadow: 0 0 0 1px rgba(0,0,0,.2), 0 1px 2px rgba(0,0,0,.2),inset 0 1px 2px rgba(155,155,155,.7)  ;
+}
+ 
+a.butt.hover {
+        background: #fff;
+}
+ 
+a.butt:hover {
+        background: #fff;
+}
+a.butt.active {
+        background: #d0d3d6;
+        background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0));
+        box-shadow: inset 0 0 2px rgba(0,0,0,.2), inset 0 2px 5px rgba(0,0,0,.2), 0 1px rgba(155,155,155,.2);
+  }
+  a.butt:active {
+        background: #d0d3d6;
+        background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0));
+        box-shadow: inset 0 0 2px rgba(0,0,0,.2), inset 0 2px 5px rgba(0,0,0,.2), 0 1px rgba(155,155,155,.2);
+  }
+  button.knopka {
+	color: blue; 
+	background: #eaeef1; 
+	padding:0 5px; 
+	box-shadow: 2px 2px  gray ,-1px -1px  gray;  
+  margin: 0px  5px ;
+  text-decoration: none;
+}
+ /*   border: 2px solid  navy;
+		 
+*/
+	 
+	button.knopka:hover { 
+	background: lime; 
+	 border-color: green;
+	color: black;
+		}
+.container {
+    width: 100%; /* ширина блока-контейнера */
+    max-width:1200px; /* максимальная ширина контейнера */
+    margin: 0 auto; /* этот стиль центрирует контейнер */
+    }
+
+          
+a {
+    text-decoration: none;
+    color: maroon;
+}
+.photo {
+    float: left; /* говорим элементам выстраиваться один за другим */
+    width:85%; /* устанавливаем ширину элемента */
+    padding: 2 px; /* добавляем отступы с каждой стороны */
+    box-sizing: border-box; /* меняем способ вычисления ширины */
+  padding: 5 px;
+  font-family:  "Times New Roman";
+    color:    blue;/* цвет подписи */
+    text-align: center;
+    margin-top:2px;
+
+}
+.photo a:hover {
+    opacity: 0.5;/* прозрачность иконки 50 % */
+
+    }
+    
+    .photo:hover a:after {
+    visibility: visible;
+
+}/*
+.photo a {
+    display: block;
+    position: relative; 
+}
+.photo a:after {
+   content: '';
+    background: transparent url(../img/icons/eye-icon.png) no-repeat center;
+    width: 52px;/* размеры прицела */
+    .photo a:after {
+   content: '';
+    background: transparent url(../img/icons/eye-icon.png) no-repeat center;
+    width: 52px;/* размеры прицела */
+    height: 35px;
+    position: absolute;
+    margin: auto;/* положение прицела */
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+} */
+
+photo figcaption {
+    font-size:  large;
+	font-family:  "Times New Roman", Times, serif;  
+	color:  maroon;
+    text-align: center;
+    margin-top:32px;
+}
+
+ #gallery {
+    margin-bottom:5px; 
+     font-size:   medium;
+	font-family:  "Times New Roman", Times, serif;  
+	color:   blue;
+}
+.photo img {
+ display: block;
+    max-width: 100%;/* ширина и высота  блока */
+    height: auto;
+border: 2px solid   gray;/* рамки вокруг блока solid -сплошная линия*/
+
+box-sizing: border-box;
+}
+#gallery:after { 
+   content: '';
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
